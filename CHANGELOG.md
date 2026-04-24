@@ -35,6 +35,10 @@ All notable changes to this project will be documented in this file.
 - Improved design by separating kernel and secondary methods
 - Added formal method contracts using OSU discipline
 
+### Component Hierarchy Diagram
+
 TaskManager (Enhanced Interface)
         ↑
 TaskManagerKernel (Kernel Interface)
+        ↑
+Standard<TaskManager>
