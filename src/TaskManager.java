@@ -28,4 +28,6 @@ public interface TaskManager extends TaskManagerKernel {
      * @ensures this has no tasks
      */
     void clearAllTasks();
+
+    void clear();
 }

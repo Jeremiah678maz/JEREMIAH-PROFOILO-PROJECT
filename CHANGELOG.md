@@ -42,3 +42,28 @@ TaskManager (Enhanced Interface)
 TaskManagerKernel (Kernel Interface)
         ↑
 Standard<TaskManager>
+
+
+## 2026.04.24
+
+### Added
+
+- Designed abstract class for TaskManager component
+
+### Updated
+
+- Implemented all secondary methods using kernel methods only
+- Replaced temporary structures with newInstance() and transferFrom()
+- Added toString() and equals()
+
+## 2026.04.24
+
+### Added
+
+- Designed kernel implementation for TaskManager component
+
+### Updated
+
+- Selected Queue<String> as the representation
+- Added convention and correspondence for TaskManager1L
+- Implemented kernel methods and Standard methods

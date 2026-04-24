@@ -1,8 +1,8 @@
 # Portfolio Part 5: Kernel Implementation
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment --> odugbesan Jeremiah 
+- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment --> odugbesan.2
+- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment --> 4/24
 
 ## Assignment Overview
 
@@ -121,6 +121,7 @@ Below is further rationale/explanation for the rubric items above:
 > and interpreted (i.e., by correspondence).
 
 <!-- TODO: select a representation and explain why -->
+I chose a Queue<String> as the representation for TaskManager because tasks are naturally handled in the order they are added. This makes addTask, removeTask, and hasTasks simple to implement. The convention is that the queue is not null and every task inside the queue is not null. The correspondence is that the abstract TaskManager is the sequence of task strings stored in the queue from front to back.
 
 > To start making your kernel implementation, make a branch off of main in your
 > new repo called something like `kernel-implementation`. There are many ways to
