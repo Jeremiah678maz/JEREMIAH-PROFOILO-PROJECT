@@ -1,8 +1,8 @@
 # Portfolio Part 2: Component Proof-of-Concept
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Name**: Jeremiah odugbesan
+- **Dot Number**: odugbesan.2
+- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment --> 4/24
 
 ## Assignment Overview
 
@@ -116,6 +116,10 @@ Below is further rationale/explanation for the rubric items above:
 
 <!-- TODO: briefly argue your choice of design or design something
 new; then delete this comment -->
+
+
+I chose the TaskManager component because it is realistic, useful, and simple enough to complete within the time limit. As a student, I often need to track homework, projects, studying, and personal tasks, so this component connects to my real life. I also chose it because the design is not too complicated for my current skill level. A task manager can be built with a simple list representation, but it still gives me enough methods to prove that the component is useful. This makes it a good proof-of-concept before later adapting it to the full OSU component discipline.
+
 
 > Once you've argued your choice of design, make a branch in your new repo called
 > something like `proof-of-concept`. There are many ways to do this, but my
