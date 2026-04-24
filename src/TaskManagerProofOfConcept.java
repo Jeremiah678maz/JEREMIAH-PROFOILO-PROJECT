@@ -112,3 +112,4 @@ public class TaskManagerProofOfConcept {
         System.out.println("Has tasks now? " + manager.hasTasks());
     }
 }
+// proof of concept update
