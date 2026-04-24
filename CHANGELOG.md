@@ -23,3 +23,18 @@ All notable changes to this project will be documented in this file.
 - Changed design to focus on TaskManager as the main component moving forward
 - Added a Java proof-of-concept with task adding, removing, checking, counting, clearing, and a main method demo
 
+
+## 2026.04.24
+
+### Added
+
+- Designed kernel and enhanced interfaces for TaskManager component
+
+### Updated
+
+- Improved design by separating kernel and secondary methods
+- Added formal method contracts using OSU discipline
+
+TaskManager (Enhanced Interface)
+        ↑
+TaskManagerKernel (Kernel Interface)
